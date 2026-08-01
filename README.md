@@ -54,3 +54,4 @@ Duas opções:
 ## Compatibilidade
 
 Layout responsivo (funciona de celular a desktop), com menu hambúrguer abaixo de 720px. Respeita a preferência do sistema por movimento reduzido (`prefers-reduced-motion`), desligando as animações do anel e do ticker para quem ativa essa opção.
+
