@@ -335,12 +335,8 @@ a{ color: inherit; text-decoration: none; }
 .ig-card-logo{
   width: 100%; height: 100%;
   border-radius: 50%;
-  background: var(--bg);
-  display:grid;
-  place-items:center;
-  font-family: var(--font-display);
-  font-weight: 800;
-  font-size: 1.8rem;
+  object-fit: cover;
+  display:block;
 }
 .ig-card-name{ font-weight: 700; color: var(--text); }
 .ig-card-handle{ font-family: var(--font-mono); font-size: .82rem; color: var(--muted); }
