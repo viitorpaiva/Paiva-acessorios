@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paiva Acessórios — Tecnologia e proteção para o seu smartphone</title>
+<meta name="description" content="Capas, cabos, fones e películas premium para iPhone e Android. Qualidade em cada detalhe.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="top">
+  <div class="wrap header-row">
+    <a href="#top" class="brand">
+      <span class="brand-ring" aria-hidden="true"></span>
+      <span class="brand-name">PAIVA</span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <a href="#produtos">Produtos</a>
+      <a href="#diferenciais">Diferenciais</a>
+      <a href="#instagram">Instagram</a>
+      <a href="#contato" class="nav-cta">Falar no WhatsApp</a>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Paiva Mobile · Accessories</p>
+        <h1>Proteção <span class="text-gradient">premium</span><br>para o seu smartphone.</h1>
+        <p class="hero-lead">Capas, películas, cabos e fones selecionados com um único critério: qualidade em cada detalhe — para iPhone e Android.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contato">Fazer pedido</a>
+          <a class="btn btn-ghost" href="#produtos">Ver produtos</a>
+        </div>
+        <dl class="hero-stats">
+          <div><dt>129</dt><dd>seguidores</dd></div>
+          <div><dt>22</dt><dd>produtos postados</dd></div>
+          <div><dt>2,1 mil</dt><dd>visualizações /30 dias</dd></div>
+        </dl>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orbit-ring"></div>
+        <div class="orbit-ring orbit-ring--inner"></div>
+        <div class="phone-mock">
+          <div class="phone-mock-notch"></div>
+          <div class="phone-mock-glow"></div>
+          <span class="diamond-mark">◆</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TICKER ============ -->
+  <div class="ticker" role="img" aria-label="Qualidade premium em cada detalhe">
+    <div class="ticker-track">
+      <span>QUALIDADE PREMIUM EM CADA DETALHE ◆ TECNOLOGIA E PROTEÇÃO ◆ PARA iPHONE E ANDROID ◆ ENTREGA RÁPIDA ◆ </span>
+      <span>QUALIDADE PREMIUM EM CADA DETALHE ◆ TECNOLOGIA E PROTEÇÃO ◆ PARA iPHONE E ANDROID ◆ ENTREGA RÁPIDA ◆ </span>
+    </div>
+  </div>
+
+  <!-- ============ SOBRE ============ -->
+  <section class="about">
+    <div class="wrap about-grid">
+      <h2>Cada peça é escolhida<br>como se fosse <span class="text-gradient">nossa</span>.</h2>
+      <p>A Paiva Acessórios nasceu para resolver um problema simples: encontrar capas, cabos e fones que realmente entregam o que prometem. Testamos encaixe, acabamento e durabilidade antes de qualquer produto chegar até você — sem enrolação, sem intermediário.</p>
+    </div>
+  </section>
+
+  <!-- ============ PRODUTOS ============ -->
+  <section class="products" id="produtos">
+    <div class="wrap">
+      <p class="eyebrow">Catálogo</p>
+      <h2>O que protege o seu dia a dia</h2>
+
+      <div class="product-grid">
+
+        <article class="product-card">
+          <div class="product-icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none"><rect x="18" y="6" width="28" height="52" rx="10" stroke="currentColor" stroke-width="2"/><circle cx="32" cy="16" r="5" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h3>Capas de silicone</h3>
+          <p>Acabamento fosco ou brilhante, encaixe perfeito nas câmeras. Para iPhone 14, 15 Pro e principais linhas Android.</p>
+          <span class="tag">For iP 14/15 Pro</span>
+        </article>
+
+        <article class="product-card">
+          <div class="product-icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none"><path d="M14 32c0-9 7-16 16-16s16 7 16 16" stroke="currentColor" stroke-width="2"/><rect x="10" y="30" width="8" height="14" rx="3" stroke="currentColor" stroke-width="2"/><rect x="46" y="30" width="8" height="14" rx="3" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h3>Fones de ouvido</h3>
+          <p>Conforto para o uso diário, som equilibrado e presença que combina com o resto do seu setup.</p>
+          <span class="tag">Over-ear · Bluetooth</span>
+        </article>
+
+        <article class="product-card">
+          <div class="product-icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none"><path d="M8 32c6-10 14-14 24-10s18 14 24 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="8" cy="32" r="4" fill="currentColor"/><circle cx="56" cy="32" r="4" fill="currentColor"/></svg>
+          </div>
+          <h3>Cabos trançados</h3>
+          <p>Malha reforçada contra ruptura nas pontas — o cabo que aguenta a bagunça da mochila.</p>
+          <span class="tag">USB-C · Lightning</span>
+        </article>
+
+        <article class="product-card">
+          <div class="product-icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none"><rect x="16" y="8" width="32" height="48" rx="4" stroke="currentColor" stroke-width="2"/><path d="M16 12l32 40M48 12L16 52" stroke="currentColor" stroke-width="1" opacity="0.4"/></svg>
+          </div>
+          <h3>Películas de vidro</h3>
+          <p>Dureza alta, transparência total e aplicação sem bolhas — sua tela protegida de verdade.</p>
+          <span class="tag">Anti-impacto</span>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DIFERENCIAIS ============ -->
+  <section class="differentials" id="diferenciais">
+    <div class="wrap">
+      <p class="eyebrow">Por que Paiva</p>
+      <h2>Três coisas que não abrimos mão</h2>
+      <div class="diff-grid">
+        <div class="diff-card">
+          <span class="diamond-mark">◆</span>
+          <h3>Qualidade premium</h3>
+          <p>Cada produto é conferido antes de sair — acabamento, encaixe e material acima da média do mercado.</p>
+        </div>
+        <div class="diff-card">
+          <span class="diamond-mark">◆</span>
+          <h3>Atendimento direto</h3>
+          <p>Fala com quem monta o pedido. Sem robô, sem fila — resposta rápida pelo WhatsApp.</p>
+        </div>
+        <div class="diff-card">
+          <span class="diamond-mark">◆</span>
+          <h3>Feito para durar</h3>
+          <p>Testamos resistência no dia a dia real antes de colocar qualquer item no catálogo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INSTAGRAM ============ -->
+  <section class="instagram" id="instagram">
+    <div class="wrap instagram-grid">
+      <div>
+        <p class="eyebrow">@paivaacessorios2026</p>
+        <h2>Acompanhe os lançamentos<br>no Instagram</h2>
+        <p class="hero-lead">Chegadas novas, bastidores da montagem e promoções relâmpago primeiro por lá.</p>
+        <a class="btn btn-primary" href="https://instagram.com/paivaacessorios2026" target="_blank" rel="noopener">Seguir no Instagram</a>
+      </div>
+      <div class="ig-card">
+        <div class="ig-card-ring"><div class="ig-card-logo">P</div></div>
+        <p class="ig-card-name">Paiva Acessórios</p>
+        <p class="ig-card-handle">@paivaacessorios2026</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTATO ============ -->
+  <section class="contact" id="contato">
+    <div class="wrap contact-grid">
+      <div>
+        <p class="eyebrow">Fale com a gente</p>
+        <h2>Garanta o seu agora</h2>
+        <p class="hero-lead">Chama no WhatsApp com o modelo do seu aparelho — a gente confirma disponibilidade na hora.</p>
+      </div>
+      <div class="contact-cards">
+        <a class="contact-card" href="https://wa.me/5511916513647" target="_blank" rel="noopener">
+          <span class="contact-label">WhatsApp</span>
+          <span class="contact-value">(11) 91651-3647</span>
+        </a>
+        <a class="contact-card" href="https://wa.me/5511992557531" target="_blank" rel="noopener">
+          <span class="contact-label">WhatsApp</span>
+          <span class="contact-value">(11) 99255-7531</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <div class="brand">
+      <span class="brand-ring" aria-hidden="true"></span>
+      <span class="brand-name">PAIVA</span>
+    </div>
+    <p>Tecnologia e proteção para o seu smartphone.</p>
+    <p class="footer-copy">© <span id="year"></span> Paiva Acessórios</p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="back-to-top" aria-label="Voltar ao topo">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
