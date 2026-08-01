@@ -125,19 +125,11 @@ a{ color: inherit; text-decoration: none; }
   padding-block: 14px;
 }
 .brand{ display:flex; align-items:center; gap:.6rem; }
-.brand-ring{
-  width: 30px; height: 30px;
+.brand-logo{
+  width: 32px; height: 32px;
   border-radius: 50%;
-  background: var(--gradient-ring);
-  padding: 3px;
+  object-fit: cover;
   display:block;
-}
-.brand-ring::after{
-  content:"";
-  display:block;
-  width:100%; height:100%;
-  border-radius:50%;
-  background: var(--bg);
 }
 .brand-name{
   font-family: var(--font-display);
@@ -196,46 +188,20 @@ a{ color: inherit; text-decoration: none; }
   place-items: center;
   min-height: 360px;
 }
-.orbit-ring{
+.hero-logo{
+  position: relative;
+  width: 300px; height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 30px 60px -20px rgba(0,0,0,.6);
+}
+.hero-logo-glow{
   position: absolute;
   width: 340px; height: 340px;
   border-radius: 50%;
   background: var(--gradient-ring);
-  -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 2px), #000 calc(100% - 2px));
-  mask: radial-gradient(farthest-side, transparent calc(100% - 2px), #000 calc(100% - 2px));
-  animation: spin 14s linear infinite;
-}
-.orbit-ring--inner{
-  width: 260px; height: 260px;
-  animation-duration: 10s;
-  animation-direction: reverse;
-  opacity: .6;
-}
-@keyframes spin{ to{ transform: rotate(360deg); } }
-
-.phone-mock{
-  position: relative;
-  width: 148px; height: 300px;
-  border-radius: 32px;
-  background: linear-gradient(160deg, var(--surface-2), var(--surface));
-  border: 1px solid var(--border);
-  box-shadow: 0 30px 60px -20px rgba(0,0,0,.6);
-  display:flex;
-  align-items:center;
-  justify-content:center;
-}
-.phone-mock-notch{
-  position:absolute;
-  top: 14px; left: 50%;
-  transform: translateX(-50%);
-  width: 46px; height: 8px;
-  border-radius: 6px;
-  background: var(--bg);
-}
-.phone-mock-glow{
-  position:absolute; inset: 30% 20%;
-  background: radial-gradient(circle, rgba(255,138,61,.25), transparent 70%);
-  filter: blur(10px);
+  filter: blur(38px);
+  opacity: .35;
 }
 .diamond-mark{
   font-size: 1.6rem;
