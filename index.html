@@ -124,13 +124,14 @@
 
       <div class="product-grid">
 
-        <article class="product-card">
+        <article class="product-card" data-gallery="capas" tabindex="0" role="button" aria-label="Ver fotos de capas de silicone">
           <div class="product-icon" aria-hidden="true">
             <svg viewBox="0 0 64 64" fill="none"><rect x="18" y="6" width="28" height="52" rx="10" stroke="currentColor" stroke-width="2"/><circle cx="32" cy="16" r="5" stroke="currentColor" stroke-width="2"/></svg>
           </div>
           <h3>Capas de silicone</h3>
           <p>Acabamento fosco ou brilhante, encaixe perfeito nas câmeras. Para iPhone 14, 15 Pro e principais linhas Android.</p>
           <span class="tag">For iP 14/15 Pro</span>
+          <span class="see-photos">Ver fotos →</span>
         </article>
 
         <article class="product-card">
@@ -211,7 +212,7 @@
     <div class="wrap contact-grid">
       <div>
         <p class="eyebrow">Fale com a gente</p>
-        <h2>Faça seu orçamento agora mesmo</h2>
+        <h2>Garanta o seu agora</h2>
         <p class="hero-lead">Chama no WhatsApp com o modelo do seu aparelho — a gente confirma disponibilidade na hora.</p>
       </div>
       <div class="contact-cards">
@@ -242,6 +243,15 @@
 </footer>
 
 <button class="back-to-top" id="back-to-top" aria-label="Voltar ao topo">↑</button>
+
+<!-- ============ GALERIA DE FOTOS (lightbox) ============ -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox-close" id="lightbox-close" aria-label="Fechar">✕</button>
+  <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Foto anterior">‹</button>
+  <img class="lightbox-img" id="lightbox-img" src="" alt="Foto do produto">
+  <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Próxima foto">›</button>
+  <p class="lightbox-count" id="lightbox-count"></p>
+</div>
 
 <script src="script.js"></script>
 </body>
