@@ -270,6 +270,15 @@ a{ color: inherit; text-decoration: none; }
   transition: transform .18s ease, border-color .18s ease;
 }
 .product-card:hover{ transform: translateY(-4px); border-color: var(--accent-3); }
+.product-card[data-gallery]{ cursor: pointer; }
+.product-card[data-gallery]:hover{ border-color: var(--accent-2); }
+.see-photos{
+  display: block;
+  margin-top: .9rem;
+  font-family: var(--font-mono);
+  font-size: .78rem;
+  color: var(--accent-2);
+}
 .product-icon{
   width: 48px; height: 48px;
   color: var(--accent-2);
@@ -285,6 +294,66 @@ a{ color: inherit; text-decoration: none; }
   border: 1px solid var(--border);
   border-radius: 999px;
   padding: .3rem .7rem;
+}
+
+/* =========================================================
+   GALERIA DE FOTOS (lightbox)
+   ========================================================= */
+.lightbox{
+  position: fixed;
+  inset: 0;
+  background: rgba(6,6,8,.94);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: 24px;
+}
+.lightbox.is-open{ display: flex; }
+.lightbox-img{
+  max-width: min(92vw, 560px);
+  max-height: 80vh;
+  border-radius: 14px;
+  object-fit: contain;
+  box-shadow: 0 30px 70px -20px rgba(0,0,0,.7);
+}
+.lightbox-close{
+  position: absolute;
+  top: 20px; right: 20px;
+  width: 42px; height: 42px;
+  border-radius: 50%;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.lightbox-nav{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 46px; height: 46px;
+  border-radius: 50%;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.lightbox-prev{ left: 12px; }
+.lightbox-next{ right: 12px; }
+.lightbox-count{
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-mono);
+  font-size: .8rem;
+  color: var(--muted);
+}
+@media (max-width: 560px){
+  .lightbox-nav{ width: 40px; height: 40px; font-size: 1.4rem; }
 }
 
 /* =========================================================
